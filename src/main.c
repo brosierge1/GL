@@ -24,7 +24,7 @@ int main(void)
     n=n+1;
    }
 //question 3//
-//VSCode ne trouve pas stdlib.h
+//VSCode ne trouve pas stdlib.h//
 
 
   }
