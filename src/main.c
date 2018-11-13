@@ -11,7 +11,7 @@ int main(void)
 {
     resultat=LancerDe();
     i++;
-}  
+}    
     return 0;
 }
 
