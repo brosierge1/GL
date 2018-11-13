@@ -2,8 +2,17 @@
 //
 
 #include "my_header.h"
+#include "TP_lib.h"
 
 int main(void)
 {
+  short resultat, i=0;
+  while(i<10)
+{
+    resultat=LancerDe();
+    i++;
+}  
     return 0;
 }
+
+//Ce programme réalise 10 lancés de dé //
