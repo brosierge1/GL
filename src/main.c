@@ -15,7 +15,7 @@ int main(void)
   unsigned short int s4=0;
   char i=0;
   char h=0;
-  unsigned short int c=0;
+  unsigned short int c=1;
   
 
 //question 1//
