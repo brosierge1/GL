@@ -15,4 +15,4 @@ int main(void)
     return 0;
 }
 
-//Ce programme réalise 10 lancés de dé //
+//Ce programme réalise 10 lancés de dé  //
