@@ -27,7 +27,7 @@ int main(void)
   }
 	n=2;
 //question 2//
-  while(s2<9876)
+  while(3*n<9876)
    {
     s2=s2+3*n;
     n=n+1;
