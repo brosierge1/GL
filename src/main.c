@@ -43,11 +43,9 @@ int main(void)
    while(h<20){
    if(c%3==0 || c%7==0){
 	 s4=s4+c;
-	 c=c+1;
 	 h=h+1;
    }
    
-   else
 	   c=c+1;
    
    
