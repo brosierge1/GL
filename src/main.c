@@ -2,22 +2,29 @@
 
 
 #include  "Tp_lib_suite.h"
-	initialiserTirage()
-	{
-	 unsigned char gagnant[6]={tirerNumero(),tirerNumero(),tirerNumero(),tirerNumero(),tirerNumero(),tirerNumero()};   
-	}
+	
 
 
 
 
 	int main(void)
 	{
+		
+	
+		
+	 	
 	unsigned char joueur[6]={1,12,32,41,25,4};
 	unsigned char i;
 	unsigned char nbgagnants=0;
+	unsigned char meilleur=0;
+	unsigned char j; 
+	for(j=0;j<100;j++)
+	{
+	 initialiserTirage();
+	unsigned char gagnant[6]={tirerNumero(),tirerNumero(),tirerNumero(),tirerNumero(),tirerNumero(),tirerNumero()}; 
 	
-	 
-	initialiserTirage();
+	unsigned char nbgagnants=0; 	
+
 	for(i=0;i<6;i++)
 	{
 		
@@ -40,16 +47,16 @@
 		nbgagnants=nbgagnants+1;
 		
 		
-	 
-	 
-	
-	
-	
 	
 	}
 	
+	if(nbgagnants>meilleur)
+		meilleur=nbgagnants;
+
 	
 	
+	}
+	   
 	return 0;
 	
 	
